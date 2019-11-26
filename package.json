@@ -1,0 +1,29 @@
+{
+  "name": "mern-project1",
+  "version": "1.0.0",
+  "description": "Shopping list built with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalcolmLow83/mern-project1.git"
+  },
+  "author": "Malcolm Low",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MalcolmLow83/mern-project1/issues"
+  },
+  "homepage": "https://github.com/MalcolmLow83/mern-project1#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
