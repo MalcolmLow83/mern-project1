@@ -6,23 +6,30 @@ This MERN project purpose is for learning a full mern stack by hands-on project.
 Part 1 > Introduction
 
 Part 2 > Express API & MongoDB (Backend)
-server cli
-    > npm init, entry point => server.js
-    > npm i express body-parser mongoose concurrently
-    > npm i -D nodemon
+    server cli
+        > npm init, entry point => server.js
+        > npm i express body-parser mongoose concurrently
+        > npm i -D nodemon
 
-mlab 
-    > build new cluster (create database)
-    > Database Access (create user to access database)
-    > Connect, Get connect string, connection string only (URI)
+    mlab 
+        > build new cluster (create database)
+        > Database Access (create user to access database)
+        > Connect, Get connect string, connection string only (URI)
 
-config/keys.js
-    > mongoURI
+    config/keys.js
+        > mongoURI
 
-models/Items.js
-    > Schema (name, date)
+    models/Items.js
+        > Schema (name, date)
 
-routes/api/items.js
-    > router.get
-    > router.post
-    > router.delete
+    routes/api/items.js
+        > router.get
+        > router.post
+        > router.delete
+
+Part 3 > Client Setup, React and Navbar (Frontend)
+    create client folder and cd to client cli
+        > create-rect-app .
+        > npm i bootstrap react-strap uuid css-transition-group
+    create components folder
+        > AppNavbar
