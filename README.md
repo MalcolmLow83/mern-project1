@@ -40,6 +40,29 @@ Part 3 > Client Setup, React and Navbar (Frontend)
         > AppNavbar
 
 part 4 > ShoppingList Component & Transitions
-    Create ShoppingList Component
-        > Create Add Item Button
-        > Create Delete and show item list
+    create ShoppingList Component
+        > create Add Item Button
+        > create Delete and show item list
+
+part 5 > Implementing Redux
+    install redux modules by cd to client cli
+        > npm i redux react-redux redux-thunk
+    
+    create redux application
+        > create store.js // entry point to redux
+    
+    import store.js and include <Provider> in App.js
+        > import store.js and wrap the App content with <Provider>
+        > import connect
+        > PropTypes // Able to use proptypes within shoppingList Component
+        > Add ComponentDiMount
+    
+    create Actions folder, type.js file & itemActions
+        > create types.js and create const types for GET_ITEMS, ADD_ITEM & DELETE_ITEM
+        > create itemActions.js and create request types
+
+    create reducers folder, root file & itemReducer file
+        > import combineReducers from redux
+        > itemReducer // data is temporary stored and will proceed to link to backend server
+        > import types.js file
+        > switch action.type, case the type and return state based on the action
