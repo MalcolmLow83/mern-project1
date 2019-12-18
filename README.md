@@ -66,3 +66,20 @@ part 5 > Implementing Redux
         > itemReducer // data is temporary stored and will proceed to link to backend server
         > import types.js file
         > switch action.type, case the type and return state based on the action
+
+part 6 > Finishing Up Redux
+    create delete item feature
+        > itemActions.js to create const for deleteItem and payload
+        > itemReducer.js to create case for delete item with id
+        > ShoppingList.js to create onDeleteClick method
+    
+    create modal with add item & submit feature
+        > ItemModal.js with reactstrap modal form libraries tags
+        > create newItem const
+        > itemActions.js to create const for addItem and payload
+        > itemReducer.js to create case for add item with newItem
+        > ShoppingList.js to create onSubmit method
+    
+    Summary
+        > Delete Button clicked > this.props.deleteItem(id) > itemActions (delete type with id) > itemReducers case DELETE_ITEM > return filtered data
+        > Add Button clicked > opens up itemModal > fill up form & submit clicked > this.props.addItem(item) > itemActions (add type with item) > itemReducers case ADD_ITEM > return new array spread
